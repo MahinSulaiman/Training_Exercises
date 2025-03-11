@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|E:\\claysys_training\\ADO.Net\\WebApplicationSample\\controllers\\projectdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:controllers\\projectdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|e:\\claysys_training\\ado.net\\webapplicationsample\\views\\projectdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:views\\projectdetails\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|e:\\claysys_training\\ado.net\\webapplicationsample\\views\\projectdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:views\\projectdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|e:\\claysys_training\\ado.net\\webapplicationsample\\dal\\projectdetails_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:dal\\projectdetails_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|E:\\claysys_training\\ADO.Net\\WebApplicationSample\\views\\projectdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:views\\projectdetails\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|E:\\claysys_training\\ADO.Net\\WebApplicationSample\\views\\projectdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:views\\projectdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|E:\\claysys_training\\ADO.Net\\WebApplicationSample\\views\\projectdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:views\\projectdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|E:\\claysys_training\\ADO.Net\\WebApplicationSample\\models\\projectdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E9415-944E-4E73-A230-E731BE659086}|WebApplicationSample.csproj|solutionrelative:models\\projectdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProjectDetails\\Details.cshtml",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Details.cshtml",
+              "RelativeToolTip": "Views\\ProjectDetails\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T05:02:02.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProjectDetails\\Delete.cshtml",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Delete.cshtml",
+              "RelativeToolTip": "Views\\ProjectDetails\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T04:15:32.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProjectDetails\\Edit.cshtml",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ProjectDetails\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:15:25.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProjectDetails\\Create.cshtml",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Create.cshtml",
+              "RelativeToolTip": "Views\\ProjectDetails\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T10:10:30.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProjectDetails\\Index.cshtml",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Views\\ProjectDetails\\Index.cshtml",
+              "RelativeToolTip": "Views\\ProjectDetails\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T07:56:14.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectDetailsController.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Controllers\\ProjectDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectDetailsController.cs",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Controllers\\ProjectDetailsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectDetailsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:49:04.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectDetails_DAL.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\DAL\\ProjectDetails_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ProjectDetails_DAL.cs",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\DAL\\ProjectDetails_DAL.cs",
+              "RelativeToolTip": "DAL\\ProjectDetails_DAL.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwIQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:07:37.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectDetails.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Models\\ProjectDetails.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectDetails.cs",
+              "ToolTip": "E:\\claysys_training\\ADO.Net\\WebApplicationSample\\Models\\ProjectDetails.cs",
+              "RelativeToolTip": "Models\\ProjectDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:39:29.016Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
