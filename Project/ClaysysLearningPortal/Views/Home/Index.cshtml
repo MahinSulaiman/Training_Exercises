@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<body class="bg-light">
+<div class="container text-center my-5">
+    <h1 class="display-4 mb-4">Welcome</h1>
+    <p class="lead mb-5">Learn More! Explore a variety of courses below.</p>
+
+    <div id="course-list" class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Courses will be loaded here dynamically -->
+    </div>
+</div>
+</body>
+@section Scripts {
+    <script src="~/js/loadcoursebycategory.js" ></script>
+}
+
+

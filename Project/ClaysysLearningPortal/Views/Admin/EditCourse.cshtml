@@ -1,0 +1,111 @@
+﻿@model ClaysysLearningPortal.Models.Courses
+
+@{
+    Layout = "_LayoutAdmin";
+}
+@if (TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        @TempData["InfoMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+else if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+else if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<body class="bg-light">
+    <div class="container my-5">
+        <h4 class="text-center">Edit Course</h4>
+        <hr />
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Edit Course</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="EditCourse" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+                            
+                            <input type="hidden" id="CourseId" name="CourseId" value="@Model.CourseId" />
+
+                            <!-- Course Title -->
+                            <div class="form-group">
+                                <label asp-for="Title" class="control-label">Course Title</label>
+                                <input asp-for="Title" class="form-control" placeholder="Enter the course title" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+
+                            <!-- Upload Course Image -->
+                            <div class="form-group">
+                                <label for="CourseImage" class="control-label">Upload Image</label>
+                                <input type="file" name="CourseImage" id="CourseImage" class="form-control-file" />
+                            </div>
+
+                            <!-- Course Description -->
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label">Course Description</label>
+                                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter course description"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+
+                            <!-- Course File -->
+                            <div class="form-group">
+                                <label asp-for="CourseFile" class="control-label">Course File</label>
+                                <input asp-for="CourseFile" class="form-control" placeholder="Upload course file" />
+                                <span asp-validation-for="CourseFile" class="text-danger"></span>
+                            </div>
+
+                            <!-- Category -->
+                            <div class="form-group">
+                                <label for="CategoryId" class="control-label">Category</label>
+                                @if (ViewData["Categories"] != null)
+                                {
+                                    var categories = (SelectList)ViewData["Categories"];
+                                    <select class="form-control" id="CategoryId" name="CategoryId" required>
+                                        @foreach (var category in categories)
+                                        {
+                                            <option value="@category.Value">@category.Text</option>
+                                        }
+                                    </select>
+                                }
+                                else
+                                {
+                                    <p>No categories available</p>
+                                }
+                            </div>
+
+                            <!-- Save Button -->
+                            <div class="form-group text-center">
+                                <input type="submit" value="Save Changes" class="btn btn-primary btn-lg" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3 text-center">
+            <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+        </div>
+    </div>
+</body>

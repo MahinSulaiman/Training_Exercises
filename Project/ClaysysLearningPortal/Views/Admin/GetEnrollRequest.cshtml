@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ClaysysLearningPortal.Models.EnrolDetails>
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<!DOCTYPE html>
+
+<div class="container text-center my-5">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            @* <th> *@
+            @*     @Html.DisplayNameFor(model => model.CourseId) *@
+            @* </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            @* <td> *@
+            @*     @Html.DisplayFor(modelItem => item.CourseId) *@
+            @* </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.ActionLink("Aprove", "UpdateEnroll", new {userId=item.UserId,courseId=item.CourseId,status="approved" }) |
+                @Html.ActionLink("Reject", "UpdateEnroll", new { userId = item.UserId, courseId = item.CourseId, status = "rejected" }) |
+                @* @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ }) *@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

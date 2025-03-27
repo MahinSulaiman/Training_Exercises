@@ -1,0 +1,99 @@
+﻿@model ClaysysLearningPortal.Models.Courses
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container my-5">
+
+    <h4 class="text-center">Create New Course</h4>
+
+    @if (TempData["ErrorMessge"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Error!</strong> @TempData["ErrorMessge"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5>Create a Course</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="CreateCourse" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+                        <!-- Course Title -->
+                        <div class="form-group">
+                            <label asp-for="Title" class="control-label">Course Title</label>
+                            <input asp-for="Title" class="form-control" placeholder="Enter the course title" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                        <!-- Upload Course Image -->
+                        <div class="form-group">
+                            <label for="CourseImage">Upload Image</label>
+                            <input type="file" name="CourseImage" id="CourseImage" class="form-control-file" />
+                        </div>
+
+                        <!-- Course File -->
+                        <div class="form-group">
+                            <label asp-for="CourseFile" class="control-label">Course File</label>
+                            <input asp-for="CourseFile" class="form-control" placeholder="Upload course file" />
+                            <span asp-validation-for="CourseFile" class="text-danger"></span>
+                        </div>
+
+                        <!-- Course Description -->
+                        <div class="form-group">
+                            <label asp-for="Description" class="control-label">Course Description</label>
+                            <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter course description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <!-- Category Selection -->
+                        <div class="form-group">
+                            <label for="CategoryId" class="control-label">Category</label>
+                            @if (ViewData["Categories"] != null)
+                            {
+                                var categories = (SelectList)ViewData["Categories"];
+                                <select class="form-control" id="CategoryId" name="CategoryId" required>
+                                    @foreach (var category in categories)
+                                    {
+                                        <option value="@category.Value">@category.Text</option>
+                                    }
+                                </select>
+                            }
+                            else
+                            {
+                                <p>No categories available</p>
+                            }
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group text-center">
+                            <input type="submit" value="Create Course" class="btn btn-primary btn-lg" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3 text-center">
+        <a asp-action="Index" class="btn btn-outline-secondary">Back to Course List</a>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

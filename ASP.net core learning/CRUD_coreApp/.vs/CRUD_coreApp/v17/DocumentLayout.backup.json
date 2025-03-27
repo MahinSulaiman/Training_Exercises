@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|e:\\claysys_training\\asp.net core learning\\crud_coreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{902DB4D1-3C38-4848-8DA3-EF1CCCF7810F}|CRUD_coreApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T10:51:40.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T07:03:57.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:47:30.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Details.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:30:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T15:17:37.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:09:10.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T11:39:41.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv3EAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:20:52.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDAL.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\DAL\\EmployeeDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\EmployeeDAL.cs",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\DAL\\EmployeeDAL.cs",
+              "RelativeToolTip": "DAL\\EmployeeDAL.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswFMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T04:26:58.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T12:37:29.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "E:\\claysys_training\\ASP.net core learning\\CRUD_coreApp\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:13:35.946Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

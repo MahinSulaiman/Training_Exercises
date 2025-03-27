@@ -1,0 +1,63 @@
+﻿@model ClaysysLearningPortal.Models.Users
+
+
+
+@{
+    var username = User.Identity.Name;
+}
+
+@{
+    Layout = "_LayoutStudent";
+}
+
+<body class="bg-light">
+    <div class="container text-center my-5">
+
+        @if (TempData["InfoMessage"] != null)
+        {
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                @TempData["InfoMessage"]
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        else if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["SuccessMessage"]
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        else if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @TempData["ErrorMessage"]
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        <h1>Welcome @username</h1>
+
+@* <p> *@
+@*     <a class="nav-link text-blue" asp-area="" asp-controller="Student" asp-action="EnrolledCourses">Enrolled Courses</a> *@
+@* </p> *@
+
+    <div id="course-list" class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Courses will be loaded here dynamically -->
+
+    </div>
+</div>
+</body>
+
+@section Scripts {
+    <script src="~/js/loadcoursebycategory.js"></script>
+}
+
+
+
+
+@* <button class="btn btn-danger me-2"><a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Logout">Sign out</a></button> *@

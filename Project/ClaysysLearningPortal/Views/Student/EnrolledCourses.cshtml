@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ClaysysLearningPortal.Models.Courses>
+@{
+    Layout = "_LayoutAdmin";
+}
+
+@{
+    ViewBag.Title = "Enrolled Courses";
+}
+
+@{
+    Layout = "_LayoutStudent";
+}
+
+
+<body class="bg-light">
+    <div class="container my-5">
+        <h1 class="display-4 text-center text-primary mb-5">Enrolled Courses</h1>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <!-- Display course image -->
+                        @if (item.CourseImage != null)
+                        {
+                            string base64Image = Convert.ToBase64String(item.CourseImage);
+                            <img src="data:image/png;base64,@base64Image" alt="Course Image" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <img src="https://via.placeholder.com/300x200?text=No+Image" alt="No Image Available" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                        }
+
+                        <div class="card-body text-center">
+                            <!-- Display course title -->
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+
+                            <!-- View Details link -->
+                            <a href="/Student/Details/?courseId=@item.CourseId" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
