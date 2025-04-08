@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                margin: 10px;
+            }
+            nav{
+                background-color: black;   
+            }
+
+            header{
+                background-color: lightgray;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .subsection-1{
+                background-color: lightgray;
+            }
+
+            p{
+                font-size: large;
+                color: green;
+            }
+
+            .subsection-3{
+                background-color: yellow;
+            }
+
+            #noted{
+                color: red;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>CSS Selectors Practice</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="main-content">
+                <div class="subsection-1">
+                        <h3>Universal Selector</h3>
+                        <p>This paragraph styled with universal selector</p>
+                </div>
+                <div class="subsection-2">
+                    <h3>Type Selector</h3>
+                    <p>This paragraph styled with Type selector</p>
+                </div>
+                <div class="subsection-3">
+                        <h3>class and id selector</h3>
+                        <p>This paragraph styled with class selector</p>
+                        <p id="noted">styled with id</p>
+                </div>
+        </div>
+
+        <footer>
+            <p>&copy;2025 My First HTML Page</p>
+        </footer>
+        
+</body>
+</html>

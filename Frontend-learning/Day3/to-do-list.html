@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        .to-do-list{
+            background-color: aquamarine;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            left: 50px;
+        }
+        h1{
+            margin-left: 100px;
+        }
+        .input,.output{
+            margin-left: 60px;
+        }
+        button{
+            background-color: rgb(21, 21, 204);
+        }
+    </style>
+</head>
+<body>
+        <div class="to-do-list">
+                <h1>To-Do List</h1>
+                <div class="input">
+                        <input type="text" name="task" id="task" placeholder="enter task">
+                        <button type="submit" onclick="addTask()">Add Task</button>
+                </div>
+                <div class="output">
+                    <ul id="task-list">
+                        <!-- <li></li> -->
+                    </ul>
+                </div>
+        </div>
+
+        <script>
+            function addTask() {
+                    let taskName=document.getElementById("task").value;
+                    let element = document.createElement("li");
+                    element.innerHTML=`${taskName} <button type="submit" onclick="deleteTask(this)">Delete</button>`
+                    element.onclick=function(){
+                        element.style.textDecoration="line-through";
+                    }
+
+                    document.getElementById("task-list").appendChild(element);
+                    document.getElementById("task").value = '';
+            }
+
+            function deleteTask(button) {
+                    button.parentElement.remove();
+            }
+        </script>
+</body>
+</html>

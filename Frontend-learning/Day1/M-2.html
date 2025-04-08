@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Exercise</title>
+</head>
+<body>
+        <header>
+                <h1>Contact Form Exercise</h1>
+        </header>
+        <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+        </nav>
+        <section>
+                <Form>
+                        <h2>Contact Us</h2>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id=""><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id=""><br><br>
+                        <label for="phone">Ph no:</label>
+                        <input type="number" name="phone" id=""><br><br>
+                        <label for="message">Message:</label>
+                        <textarea name="message"></textarea><br><br>
+                        <label for="date">DOB:</label>
+                        <input type="date" name="date" id="demo" ><br><br>
+                        <input type="button" value="Submit">  
+                </Form>
+        </section>
+        <footer>
+                <p>&copy;2025 My First HTML Page</p>
+        </footer>
+        <script>
+                var todayDate=new Date();
+                var year=todayDate.getUTCFullYear();
+                var maxYear=year-18;
+                var minYear=year-50;
+                var month=todayDate.getUTCMonth()+1;
+                var day=todayDate.getDate();
+                if(month<10){
+                        month="0"+month;
+                }
+                if(day<10){
+                        day="0"+day;
+                }
+                var maxDate = `${maxYear}-${month}-${day}`;
+                var minDate = `${minYear}-${month}-${day}`;
+
+                document.getElementById("demo").setAttribute("max",maxDate);
+                document.getElementById("demo").setAttribute("min", minDate);
+        </script>
+</body>
+</html>

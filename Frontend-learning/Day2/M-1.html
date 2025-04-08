@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .introduction>p{
+                font-size:large;
+                color: lightblue;
+                line-height: 35px;
+            }
+
+            .content-boxes>div{
+                background-color: lightgray;
+                display: inline-block;
+                border: 15px ;
+                margin: 15px;
+                padding: 25px;
+            }
+            nav{
+                background-color: black;
+            }
+            nav>a{
+                
+                color: white;
+                padding: 5px;
+                margin: 10px;
+            }
+
+            ul>li:hover{
+                color: red;
+                
+            }
+            a:link {
+            color: blue;
+            }
+
+            a:visited {
+            color:  lightgray;
+            }
+
+            a:hover {
+            color: red;
+            }
+
+            a:active {
+            color: green;
+            }
+
+            .section-3>p::before{
+                content: "start:";
+                color: brown;
+                font-size: 50px;
+            }
+            .section-3>p::after{
+                content: "End";
+                color: brown;
+                font-size: 50px;
+            }
+            footer{
+                background-color: lightgray;
+            }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>HTML List and Tables </h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+    </header>
+    
+    <div class="introduction">
+            <h2>Introduction</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Necessitatibus soluta temporibus quae, incidunt, error saepe ad atque quos beatae enim autem, 
+                voluptas minima dolorum voluptate assumenda non ipsam sed reiciendis!</p>
+    </div>
+    <div class="content-boxes">
+            <div>
+                <h2>Box1</h2>
+                <p>some text</p>
+            </div>
+            <div>
+                <h2>Box2</h2>
+                <p>some text</p>
+            </div>
+            <div>
+                <h2>Box3</h2>
+                <p>some text</p>
+            </div>
+    </div>
+    <div class="section-3">
+           <h2>Pseudo Classes</h2>
+           <ul>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+           </ul> 
+
+           <h2>Pseudo Elements</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Porro, facilis rerum ad quisquam molestias odio nesciunt quo. 
+            Temporibus quisquam, animi eveniet repellendus iste ea. Numquam magni ea rem illo dignissimos!</p>
+    </div>
+    <footer>
+            <p>&copy;2025 My First HTML Page</p>
+    </footer>
+</body>
+</html>

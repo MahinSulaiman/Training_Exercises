@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="calculator">
+        <label for="principal">principal amount</label>
+        <input type="text" name="principal" id="principal"><br><br>
+        <label for="rate">interest rate(%)</label>
+        <input type="number" name="rate" id="rate"><br><br>
+        <label for="time">time(Years)</label>
+        <input type="number" name="time" id="time"><br><br>
+        <button type="submit">Calculate interest</button>
+    </form>
+    <div class="result" id="result">
+        <p id="interest"></p>
+        <p id="totalAmount"></p>
+        <p id="additionalInfo"></p>
+    </div>
+
+    <script>
+        document.getElementById('calculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+                
+            let principal = parseFloat(document.getElementById('principal').value);
+            let rate = parseFloat(document.getElementById('rate').value);
+            let time = parseFloat(document.getElementById('time').value);
+            let bonusinfo="";
+
+            validateInput(principal,time);
+            let baseRate=applyInterestRate(principal);
+            rate+=baseRate
+            if(time>5){
+                rate+=2
+                bonusinfo="2% bonus added"
+            } 
+            console.log(rate);
+            let interest = calculateInterestAmount(principal,rate,time);
+            let totalAmount = principal + interest ;
+
+           
+            document.getElementById('interest').textContent = `Interest: $${interest.toFixed(2)}`;
+            document.getElementById('totalAmount').textContent = `Total Amount (Principal + Interest): $${totalAmount.toFixed(2)}`;
+            document.getElementById('additionalInfo').textContent=`Additional Details: ${bonusinfo}`
+            document.getElementById('result').style.display = 'block';
+            });
+
+    function validateInput(principal, time) {
+        if (isNaN(principal) || principal < 500 || principal > 10000) {
+            window.alert("Please enter a principal amount between $500 and $10,000.")
+            throw "Please enter a principal amount between $500 and $10,000.";
+        }
+
+        if (isNaN(time) || time <= 0) {
+            window.alert("Please enter a valid time period greater than 0 years.")
+            throw "Please enter a valid time period greater than 0 years.";
+        }
+
+        return true;
+    }
+
+    function applyInterestRate(principal) {
+        if (principal < 1000) return 5;
+        if (principal >= 1000 && principal <= 5000) return 7;
+        return 10; 
+    }
+
+    function calculateInterestAmount(principal, rate, time) {
+        return (principal * rate * time) / 100;
+    }
+
+
+    </script>
+</body>
+</html>

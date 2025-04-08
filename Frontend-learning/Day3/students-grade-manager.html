@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="students-grade-manager">
+                <h1>Students Grade Management</h1>
+                <label for="name">Student Name:</label>
+                <input type="text" name="name" id="name"><br><br>
+                <label for="grade">Grade:</label>
+                <input type="number" name="grade" id="grade"><br><br>
+                <button type="submit" id="addbutton">Add Student</button><br><br>
+             
+                <button type="button" id="displaybutton">Display Grades</button><br>
+                <div class="grade-list" id="grade-list">         
+                </div><br>
+                <button id="averagebutton">Calculate Average Grade</button>
+                <div id="average"></div>
+        </div>
+
+        <script>
+            let students=[];
+            function addStudent() {
+                let name=document.getElementById("name").value.trim();
+                let grade=parseFloat(document.getElementById("grade").value);
+
+                if (!name || isNaN(grade) || grade < 0 || grade > 100) {
+                    alert("Please enter a valid name and grade between 0 and 100.");
+                    return;
+                }
+              
+                const student={ name: name, grade: grade};
+                students.push(student);
+               
+
+                document.getElementById('name').value = '';
+                document.getElementById('grade').value = '';
+                alert(`${name} added with grade ${grade}`);
+                
+
+            }
+
+            function displayStudent(){
+                let gradeList=document.getElementById("grade-list");
+                gradeList.innerHTML = `<h3>Grades List</h3>`;
+                // gradeList.innerHTML=
+                if (students.length==0){
+                    gradeList.innerHTML=`No student in the list`
+                }
+
+                students.forEach(student=>{
+                    const studentDiv = document.createElement('div');
+                    studentDiv.classList.add('student');
+                    studentDiv.textContent = `${student.name}: ${student.grade}`;
+                    gradeList.appendChild(studentDiv)
+                });
+            }
+
+            function findAverage() {
+                let gradeList=document.getElementById("average");
+                
+
+                if(students.length==0){
+                    gradeList.innerHTML=`No student in the list`
+                }
+
+                let gradeSum=students.reduce((sum,student)=>sum+student.grade,0);
+                let averageGrade=gradeSum/students.length
+                gradeList.innerHTML = `<p>Average Grade: ${averageGrade}</p>`;
+            }
+
+            document.getElementById("addbutton").addEventListener("click",addStudent);
+            document.getElementById("displaybutton").addEventListener("click",displayStudent);
+            document.getElementById("averagebutton").addEventListener("click",findAverage);
+        </script>
+</body>
+</html>

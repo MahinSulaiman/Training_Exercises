@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Divs</title>
+    <style>
+        .relative-container {
+            background-color: lightgray;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            overflow: hidden; 
+            margin-bottom: 50px;
+        }
+
+        .draggable-box {
+            background-color: lightgreen;
+            position: absolute;
+            width: 70%;
+            height: 25%;
+            cursor: pointer; 
+        }
+
+        .fixed-container {
+            background-color: lightblue;
+            position: fixed;
+            width: 150px;
+            height: 100px;
+            cursor: pointer;
+            top: 50px;
+            left: 50px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Draggable Divs Exercise</h1>
+    </header>
+
+    <div class="main-content">
+        <!-- Relative Container -->
+        <div class="relative-container">
+            <div class="draggable-box" id="draggable" draggable="true">
+                Drag Me Within Box
+            </div>
+        </div>
+
+        <!-- Fixed Positioned Container -->
+        <div class="fixed-container" id="fixed-container" draggable="true">
+            Drag Me Across Window
+        </div>
+    </div>
+
+    <script>
+        // Relative draggable
+        const draggable = document.getElementById('draggable');
+        const container = document.querySelector('.relative-container');
+
+        let offsetX, offsetY;
+
+        draggable.addEventListener('dragstart', (e) => {
+            offsetX = e.clientX - draggable.getBoundingClientRect().left;
+            offsetY = e.clientY - draggable.getBoundingClientRect().top;
+            draggable.style.opacity = '0.5'; // Indicate dragging
+        });
+
+        container.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+            let newX = mouseX - offsetX;
+            let newY = mouseY - offsetY;
+            const containerRect = container.getBoundingClientRect();
+            const draggableRect = draggable.getBoundingClientRect();
+
+            // Boundary checks for relative container
+            if (newX < containerRect.left) newX = containerRect.left;
+            if (newY < containerRect.top) newY = containerRect.top;
+            if (newX + draggableRect.width > containerRect.right) newX = containerRect.right - draggableRect.width;
+            if (newY + draggableRect.height > containerRect.bottom) newY = containerRect.bottom - draggableRect.height;
+
+            draggable.style.left = `${newX - containerRect.left}px`;
+            draggable.style.top = `${newY - containerRect.top}px`;
+        });
+
+        draggable.addEventListener('dragend', () => {
+            draggable.style.opacity = '1';
+        });
+
+        // Fixed draggable
+        const fixedContainer = document.getElementById('fixed-container');
+        let offsetXFixed, offsetYFixed;
+
+        fixedContainer.addEventListener('dragstart', (e) => {
+            
+            e.stopPropagation(); 
+
+            offsetXFixed = e.clientX - fixedContainer.getBoundingClientRect().left;
+            offsetYFixed = e.clientY - fixedContainer.getBoundingClientRect().top;
+            fixedContainer.style.opacity = '0.5'; 
+        });
+
+        document.addEventListener('dragover', (e) => {
+            // Check if the fixed container is being dragged
+            if (e.target !== fixedContainer) return;
+
+            e.preventDefault(); 
+
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+            // Calculate the new position for the fixed container
+            let newX = mouseX - offsetXFixed;
+            let newY = mouseY - offsetYFixed;
+
+            // Move the fixed container within the window (no boundary checks needed)
+            fixedContainer.style.left = `${newX}px`;
+            fixedContainer.style.top = `${newY}px`;
+        });
+
+        fixedContainer.addEventListener('dragend', () => {
+            fixedContainer.style.opacity = '1'; // Restore opacity
+        });
+    </script>
+</body>
+</html>
