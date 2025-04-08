@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ClaysysLearningPortal.Models;
 using ClaysysLearningPortal.DAL;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ClaysysLearningPortal.Error;
 
 namespace ClaysysLearningPortal.Controllers;
 
@@ -19,15 +20,33 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Categories> categories = _coursesDAL.GetCategories();
-        ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
-        return View();
+        try
+        {
+            List<Categories> categories = _coursesDAL.GetCategories();
+            ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
+            return View();
+        }
+        catch (Exception ex)
+        {
+
+            TempData["ErrorMessage"] = ex.Message;
+            return View();
+        }
     }
 
     public IActionResult Courses(Guid? categoryId)
     {
-        List<Courses> courseList = _coursesDAL.GetCoursesByCategory(categoryId);
-        return Json(courseList);
+        try
+        {
+            List<Courses> courseList = _coursesDAL.GetCoursesByCategory(categoryId);
+            return Json(courseList);
+        }
+        catch (Exception ex)
+        {
+
+            TempData["ErrorMessage"] = ex.Message;
+            return View();
+        }
     }
 
 

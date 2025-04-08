@@ -1,4 +1,5 @@
 ﻿using ClaysysLearningPortal.DAL;
+using ClaysysLearningPortal.Error;
 using ClaysysLearningPortal.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,23 +14,44 @@ namespace ClaysysLearningPortal.Controllers
     {
         private readonly CoursesDAL _coursesDAL;
         private readonly UserDAL _userDAL;
+        private readonly ErrorLogger _errorLogger;
 
-        public StudentController(CoursesDAL dal,UserDAL userDAL)
+        public StudentController(CoursesDAL dal,UserDAL userDAL,ErrorLogger errorLogger)
         {
             this._coursesDAL = dal;
             this._userDAL = userDAL;
+            this._errorLogger = errorLogger;
         }
         public IActionResult Index()
         {
-            List<Categories> categories = _coursesDAL.GetCategories();
-            ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
-            return View();
+            try
+            {
+                List<Categories> categories = _coursesDAL.GetCategories();
+                ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
+                return View();
+            }
+            catch (Exception ex)
+            {
+                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
+                return View();
+            }
         }
 
         public IActionResult Courses(Guid? categoryId)
         {
-            List<Courses> courseList = _coursesDAL.GetCoursesByCategory(categoryId);
-            return Json(courseList);
+            try
+            {
+                List<Courses> courseList = _coursesDAL.GetCoursesByCategory(categoryId);
+                return Json(courseList);
+            }
+            catch (Exception ex)
+            {
+
+                TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
+                return View();
+            }
         }
 
         public IActionResult Details(Guid courseId)
@@ -56,6 +78,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
             
@@ -87,6 +110,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
 
             }
@@ -113,6 +137,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
 
@@ -140,6 +165,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -155,6 +181,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -175,7 +202,8 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
-                return View(); throw;
+                _errorLogger.WriteError(ex.Message);
+                return View(); 
             }
         }
 

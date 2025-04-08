@@ -1,6 +1,14 @@
+wwwroot\css\admin.css
+wwwroot\css\home.css
 wwwroot\css\site.css
+wwwroot\Error\02-04-25.txt
+wwwroot\Error\06-04-25.txt
+wwwroot\Error\07-04-25.txt
 wwwroot\favicon.ico
+wwwroot\js\dateValidation.js
+wwwroot\js\fileValidation.js
 wwwroot\js\loadCourseByCategory.js
+wwwroot\js\preventBack.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

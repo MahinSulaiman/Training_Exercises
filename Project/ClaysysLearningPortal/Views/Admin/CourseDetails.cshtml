@@ -64,8 +64,12 @@ else if (TempData["ErrorMessage"] != null)
     {
         <p class="text-center text-muted">No course file available</p>
     }
+    <div class="align-content-center mt-2">
+        <a asp-action="Index" class="btn btn-outline-secondary btn-lg">Back to List</a>
+    </div>
+    
 
-    @Html.ActionLink("Edit", "EditCourse", new { courseId=Model.CourseId }) |
-    @Html.ActionLink("Delete", "DeleteCourse", new { courseId = Model.CourseId })
+    @* @Html.ActionLink("Edit", "EditCourse", new { courseId=Model.CourseId }) | *@
+    @* @Html.ActionLink("Delete", "DeleteCourse", new { courseId = Model.CourseId }) *@
 </div>
 

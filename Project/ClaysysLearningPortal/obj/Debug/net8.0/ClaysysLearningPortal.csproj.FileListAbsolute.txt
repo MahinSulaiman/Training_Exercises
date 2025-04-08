@@ -521,10 +521,13 @@ E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebasse
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ClaysysLearningPortal.props
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ClaysysLearningPortal.props
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebassets.pack.json
-E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\ClaysysL.C9952F05.Up2Date
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\ClaysysLearningPortal.dll
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\refint\ClaysysLearningPortal.dll
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\ClaysysLearningPortal.pdb
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\ClaysysLearningPortal.genruntimeconfig.cache
 E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\ref\ClaysysLearningPortal.dll
+E:\claysys_training\Project\ClaysysLearningPortal\bin\Debug\net8.0\FakeSystemWeb.dll
+E:\claysys_training\Project\ClaysysLearningPortal\bin\Debug\net8.0\RequestStrap.dll
+E:\claysys_training\Project\ClaysysLearningPortal\bin\Debug\net8.0\web.config
+E:\claysys_training\Project\ClaysysLearningPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

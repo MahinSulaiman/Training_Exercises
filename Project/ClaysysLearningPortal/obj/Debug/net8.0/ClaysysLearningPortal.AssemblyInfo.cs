@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaysysLearningPortal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d10bc330549733f8917e683af3164a00820c80cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e478748606422e19beca6a5ec4ff4a6464e8f58c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaysysLearningPortal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaysysLearningPortal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

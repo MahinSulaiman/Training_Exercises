@@ -87,7 +87,7 @@ else if (TempData["ErrorMessge"] != null)
                         <!-- Date of Birth -->
                         <div class="form-group">
                             <label asp-for="DateOfBirth" class="control-label"></label>
-                            <input asp-for="DateOfBirth" class="form-control" type="date" />
+                            <input asp-for="DateOfBirth" class="form-control" type="date" id="dob"/>
                             <span asp-validation-for="DateOfBirth" class="text-danger"></span>
                         </div>
 
@@ -122,7 +122,7 @@ else if (TempData["ErrorMessge"] != null)
         </div>
     </div>
 </div>
-
+<script src="~/js/datevalidation.js"></script>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

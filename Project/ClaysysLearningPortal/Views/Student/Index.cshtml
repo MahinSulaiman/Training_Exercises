@@ -10,7 +10,7 @@
     Layout = "_LayoutStudent";
 }
 
-<body class="bg-light">
+<body class="">
     <div class="container text-center my-5">
 
         @if (TempData["InfoMessage"] != null)
@@ -42,10 +42,6 @@
         }
         <h1>Welcome @username</h1>
 
-@* <p> *@
-@*     <a class="nav-link text-blue" asp-area="" asp-controller="Student" asp-action="EnrolledCourses">Enrolled Courses</a> *@
-@* </p> *@
-
     <div id="course-list" class="row row-cols-1 row-cols-md-3 g-4">
         <!-- Courses will be loaded here dynamically -->
 
@@ -56,8 +52,6 @@
 @section Scripts {
     <script src="~/js/loadcoursebycategory.js"></script>
 }
-
-
-
-
-@* <button class="btn btn-danger me-2"><a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Logout">Sign out</a></button> *@
+@section Styles {
+    <link href="~/css/home.css" rel="stylesheet" />
+    }

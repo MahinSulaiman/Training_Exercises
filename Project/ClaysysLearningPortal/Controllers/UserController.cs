@@ -1,4 +1,5 @@
 ﻿using ClaysysLearningPortal.DAL;
+using ClaysysLearningPortal.Error;
 using ClaysysLearningPortal.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -10,9 +11,11 @@ namespace ClaysysLearningPortal.Controllers
     public class UserController : Controller
     {
         private readonly UserDAL _userDAL;
-        public UserController(UserDAL dal)
+        private readonly ErrorLogger _errorLogger;
+        public UserController(UserDAL dal,ErrorLogger errorLogger)
         {
             _userDAL = dal;
+            _errorLogger = errorLogger;
         }
         public IActionResult Index()
         {
@@ -44,6 +47,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View(user);
 
             }
@@ -84,7 +88,8 @@ namespace ClaysysLearningPortal.Controllers
                 else 
                 {
                     TempData["ErrorMessage"] = "Invalid username or password";
-                    return View();
+                    throw new Exception("Invalid username or password");
+                    //return View();
                 }
                  
             }
@@ -92,6 +97,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
 
             }
@@ -99,8 +105,17 @@ namespace ClaysysLearningPortal.Controllers
 
         public IActionResult Logout()
         {
-            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Login");
+            try
+            {
+                HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                return RedirectToAction("Login");
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
+                return View();
+            }
         }
     }
 }

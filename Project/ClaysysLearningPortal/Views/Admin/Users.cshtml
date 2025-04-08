@@ -9,8 +9,8 @@
     <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
 
-<table class="table">
-    <thead>
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.UserId)
@@ -75,5 +75,9 @@
 }
     </tbody>
 </table>
+
+    @section Styles {
+    <link href="~/css/admin.css" rel="stylesheet" />
+    }
 </div>
 

@@ -9,6 +9,7 @@ namespace ClaysysLearningPortal.Models
         [Key]
         public Guid CourseId { get; set; }
         [Required]
+        [RegularExpression(@"^[a-zA-Z\s]*$", ErrorMessage = "Name can only contain letters and spaces.")]
         public string Title { get; set; }
         [Required]
         [DisplayName("Upload image")]
@@ -25,6 +26,9 @@ namespace ClaysysLearningPortal.Models
         public string? EnrollStatus { get; set; } 
 
         public string? Category { get; set; }
+
+        
+        public string ExistingImage { get; set; }
 
     }
 }

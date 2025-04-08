@@ -1,0 +1,10 @@
+
+Log Entry : 
+04/02/2025 20:11:09
+Error in: /User/Login. Error Message: Something went wrong!
+__________________________
+
+Log Entry : 
+04/02/2025 20:18:41
+Error in: /User/Login. Error Message: invalid went login
+__________________________

@@ -1,0 +1,5 @@
+
+Log Entry : 
+04/06/2025 19:12:16
+Error in: /User/Login. Error Message: Invalid username or password
+__________________________

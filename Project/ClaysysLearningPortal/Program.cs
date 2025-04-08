@@ -1,10 +1,13 @@
 using ClaysysLearningPortal.DAL;
+using ClaysysLearningPortal.Error;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<CoursesDAL>();
 builder.Services.AddScoped<UserDAL>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<ErrorLogger>();
 // Add services to the container.
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W16fqEQM4ukxhIXDOkdeqJoOPysQDGJMGq1ov/djtLQ=",
+  "Hash": "CnYgduNdwG0zeA93oEks4V5P5aMj80fCdsml9IOwhqc=",
   "Source": "ClaysysLearningPortal",
   "BasePath": "_content/ClaysysLearningPortal",
   "Mode": "Default",
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClaysysLearningPortal.bundle.scp.css"
     },
     {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "css/admin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kvojucja9",
+      "Integrity": "yWAZWsI845IvSod3bSPXiQBa8rZKxgfXATlHIKWYqMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\home.css",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9qictgj3gm",
+      "Integrity": "0Va7MkAKP7ZzIrqBrJPB672GR+GHkWcCvhmRhChdze8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\site.css",
       "SourceId": "ClaysysLearningPortal",
       "SourceType": "Discovered",
@@ -73,11 +115,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "gicav1w6v1",
+      "Integrity": "2AB30lBeDGUtPnG6Yu9JWzc2ebuQlSlRb6ITPM4jPE8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\02-04-25.txt",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "Error/02-04-25#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jx8p10ytdd",
+      "Integrity": "iQXmOSY0gwfJ3L7j+/+t/0LNRZ+aI8NZKK3ZiuQ6Dyc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Error\\02-04-25.txt"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\06-04-25.txt",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "Error/06-04-25#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wv5yzbnocw",
+      "Integrity": "tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Error\\06-04-25.txt"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\07-04-25.txt",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "Error/07-04-25#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g3enw3pkc1",
+      "Integrity": "HEPqIKD3p+946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Error\\07-04-25.txt"
     },
     {
       "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\favicon.ico",
@@ -101,6 +206,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\dateValidation.js",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "js/dateValidation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu26kofjs3",
+      "Integrity": "GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dateValidation.js"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "js/fileValidation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "58ti8bwo18",
+      "Integrity": "dXg4aL+v6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\fileValidation.js"
+    },
+    {
       "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\loadCourseByCategory.js",
       "SourceId": "ClaysysLearningPortal",
       "SourceType": "Discovered",
@@ -120,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\loadCourseByCategory.js"
+    },
+    {
+      "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
+      "SourceId": "ClaysysLearningPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\",
+      "BasePath": "_content/ClaysysLearningPortal",
+      "RelativePath": "js/preventBack#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z13c2enddm",
+      "Integrity": "iXv2A0j7te38UOitYUp16d8ouM6wnohWCFExLVG1j0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\preventBack.js"
     },
     {
       "Identity": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\site.js",
@@ -1364,7 +1532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:03:07 GMT"
+          "Value": "Mon, 07 Apr 2025 04:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1401,7 +1569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:03:07 GMT"
+          "Value": "Mon, 07 Apr 2025 04:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1446,7 +1614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:03:07 GMT"
+          "Value": "Mon, 07 Apr 2025 04:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1491,7 +1659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:03:07 GMT"
+          "Value": "Mon, 07 Apr 2025 04:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1506,8 +1674,8 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\site.css",
+      "Route": "css/admin.9kvojucja9.css",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1516,7 +1684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1484"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"yWAZWsI845IvSod3bSPXiQBa8rZKxgfXATlHIKWYqMM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:02:17 GMT"
+          "Value": "Sun, 06 Apr 2025 12:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,15 +1706,134 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "9kvojucja9"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/admin.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-yWAZWsI845IvSod3bSPXiQBa8rZKxgfXATlHIKWYqMM="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWAZWsI845IvSod3bSPXiQBa8rZKxgfXATlHIKWYqMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:55:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWAZWsI845IvSod3bSPXiQBa8rZKxgfXATlHIKWYqMM="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.9qictgj3gm.css",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Va7MkAKP7ZzIrqBrJPB672GR+GHkWcCvhmRhChdze8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:48:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9qictgj3gm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Va7MkAKP7ZzIrqBrJPB672GR+GHkWcCvhmRhChdze8="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Va7MkAKP7ZzIrqBrJPB672GR+GHkWcCvhmRhChdze8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:48:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Va7MkAKP7ZzIrqBrJPB672GR+GHkWcCvhmRhChdze8="
         }
       ]
     },
@@ -1561,7 +1848,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1239"
         },
         {
           "Name": "Content-Type",
@@ -1569,11 +1856,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"2AB30lBeDGUtPnG6Yu9JWzc2ebuQlSlRb6ITPM4jPE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:02:17 GMT"
+          "Value": "Sun, 06 Apr 2025 10:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1870,298 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-2AB30lBeDGUtPnG6Yu9JWzc2ebuQlSlRb6ITPM4jPE8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gicav1w6v1.css",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2AB30lBeDGUtPnG6Yu9JWzc2ebuQlSlRb6ITPM4jPE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gicav1w6v1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2AB30lBeDGUtPnG6Yu9JWzc2ebuQlSlRb6ITPM4jPE8="
+        }
+      ]
+    },
+    {
+      "Route": "Error/02-04-25.jx8p10ytdd.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\02-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQXmOSY0gwfJ3L7j+/+t/0LNRZ+aI8NZKK3ZiuQ6Dyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 14:48:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jx8p10ytdd"
+        },
+        {
+          "Name": "label",
+          "Value": "Error/02-04-25.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iQXmOSY0gwfJ3L7j+/+t/0LNRZ+aI8NZKK3ZiuQ6Dyc="
+        }
+      ]
+    },
+    {
+      "Route": "Error/02-04-25.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\02-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iQXmOSY0gwfJ3L7j+/+t/0LNRZ+aI8NZKK3ZiuQ6Dyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 14:48:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iQXmOSY0gwfJ3L7j+/+t/0LNRZ+aI8NZKK3ZiuQ6Dyc="
+        }
+      ]
+    },
+    {
+      "Route": "Error/06-04-25.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\06-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w="
+        }
+      ]
+    },
+    {
+      "Route": "Error/06-04-25.wv5yzbnocw.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\06-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wv5yzbnocw"
+        },
+        {
+          "Name": "label",
+          "Value": "Error/06-04-25.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w="
+        }
+      ]
+    },
+    {
+      "Route": "Error/07-04-25.g3enw3pkc1.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\07-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HEPqIKD3p+946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 16:46:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g3enw3pkc1"
+        },
+        {
+          "Name": "label",
+          "Value": "Error/07-04-25.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HEPqIKD3p+946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs="
+        }
+      ]
+    },
+    {
+      "Route": "Error/07-04-25.txt",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\07-04-25.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HEPqIKD3p+946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 16:46:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HEPqIKD3p+946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs="
         }
       ]
     },
@@ -1670,6 +2248,170 @@
       ]
     },
     {
+      "Route": "js/dateValidation.eu26kofjs3.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\dateValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 14:52:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eu26kofjs3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dateValidation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b+Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/dateValidation.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\dateValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 14:52:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b+Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileValidation.58ti8bwo18.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dXg4aL+v6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 12:29:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58ti8bwo18"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fileValidation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dXg4aL+v6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileValidation.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dXg4aL+v6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 12:29:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dXg4aL+v6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM="
+        }
+      ]
+    },
+    {
       "Route": "js/loadCourseByCategory.js",
       "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\loadCourseByCategory.js",
       "Selectors": [],
@@ -1692,7 +2434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:58:57 GMT"
+          "Value": "Sun, 06 Apr 2025 05:39:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1729,7 +2471,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:58:57 GMT"
+          "Value": "Sun, 06 Apr 2025 05:39:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1748,6 +2490,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-UeRAfPH5Sr8pnKdFf3R+pbkjIP+CAi1ciSONn9BraFY="
+        }
+      ]
+    },
+    {
+      "Route": "js/preventBack.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iXv2A0j7te38UOitYUp16d8ouM6wnohWCFExLVG1j0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 17:17:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iXv2A0j7te38UOitYUp16d8ouM6wnohWCFExLVG1j0c="
+        }
+      ]
+    },
+    {
+      "Route": "js/preventBack.z13c2enddm.js",
+      "AssetFile": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iXv2A0j7te38UOitYUp16d8ouM6wnohWCFExLVG1j0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 17:17:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z13c2enddm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/preventBack.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iXv2A0j7te38UOitYUp16d8ouM6wnohWCFExLVG1j0c="
         }
       ]
     },

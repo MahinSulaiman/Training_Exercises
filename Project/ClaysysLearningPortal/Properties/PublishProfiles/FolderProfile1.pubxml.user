@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\DELL\Desktop\publish</_PublishTargetUrl>
+    <History>True|2025-04-07T06:58:47.0622895Z||;False|2025-04-07T12:25:55.9964045+05:30||;True|2025-04-07T10:30:09.8927098+05:30||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>data source=DESKTOP-KHDKEB7\SQLEXPRESS%3binitial catalog=ClaysysLearningPortal%3bintegrated security=true%3bTrustServerCertificate=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

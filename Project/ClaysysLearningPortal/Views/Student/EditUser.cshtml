@@ -4,6 +4,8 @@
     ViewData["Title"] = "EditUser";
     Layout = "_LayoutStudent";
 }
+
+<!-- Info, Success, Error Message Alerts -->
 @if (TempData["InfoMessage"] != null)
 {
     <div class="alert alert-info alert-dismissible fade show" role="alert">
@@ -32,54 +34,79 @@ else if (TempData["ErrorMessage"] != null)
     </div>
 }
 
-<h1>EditUser</h1>
+<!-- Title and Heading -->
+@* <h1 class="text-center my-4 text-primary">@ViewData["Title"]</h1> *@
 
-<h4>Users</h4>
-<hr />
-<div class="container text-center my-5">
-    <div class="col-md-4">
-        <form asp-action="EditUser">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
-            <div class="form-group">
-                <label asp-for="FirstName" class="control-label"></label>
-                <input asp-for="FirstName" class="form-control" />
-                <span asp-validation-for="FirstName" class="text-danger"></span>
+<!-- Form Card -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+            <div class="card shadow-lg rounded-lg">
+                <div class="card-body">
+                    <h4 class="card-title text-center text-primary mb-4">Edit User Information</h4>
+
+                    <!-- Form Start -->
+                    <form asp-action="EditUser">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <!-- Hidden Field for UserId -->
+                        <input type="hidden" id="UserId" name="UserId" value="@Model.UserId" />
+
+                        <!-- First Name -->
+                        <div class="form-group mt-2">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Enter First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Last Name -->
+                        <div class="form-group mt-2">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" placeholder="Enter Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group mt-2">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Gender -->
+                        <div class="form-group mt-2">
+                            <label asp-for="Gender" class="control-label"></label>
+                            <input asp-for="Gender" class="form-control" placeholder="Enter Gender" />
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+
+                        <!-- Date of Birth -->
+                        <div class="form-group mt-2">
+                            <label asp-for="DateOfBirth" class="control-label"></label>
+                            <input asp-for="DateOfBirth" class="form-control" type="date" />
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+
+                        <!-- User Name -->
+                        <div class="form-group mt-2">
+                            <label asp-for="UserName" class="control-label"></label>
+                            <input asp-for="UserName" class="form-control" placeholder="Enter User Name" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group mt-2">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Save Changes</button>
+                            <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="LastName" class="control-label"></label>
-                <input asp-for="LastName" class="form-control" />
-                <span asp-validation-for="LastName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Gender" class="control-label"></label>
-                <input asp-for="Gender" class="form-control" />
-                <span asp-validation-for="Gender" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateOfBirth" class="control-label"></label>
-                <input asp-for="DateOfBirth" class="form-control" />
-                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" />
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-          
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
+@section Styles {
+    <link href="~/css/admin.css" rel="stylesheet" />
+}

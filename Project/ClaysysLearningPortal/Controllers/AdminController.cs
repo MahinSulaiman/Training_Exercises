@@ -1,4 +1,5 @@
 ﻿using ClaysysLearningPortal.DAL;
+using ClaysysLearningPortal.Error;
 using ClaysysLearningPortal.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,12 +11,14 @@ namespace ClaysysLearningPortal.Controllers
     [Authorize(Roles = "admin")]
     public class AdminController : Controller
     {
+        private readonly ErrorLogger _errorLogger;
         private readonly UserDAL _userDAL;
         private readonly CoursesDAL _coursesDAL;
-        public AdminController(UserDAL userDAL,CoursesDAL coursesDAL)
+        public AdminController(UserDAL userDAL,CoursesDAL coursesDAL,ErrorLogger errorLogger)
         {
             _userDAL = userDAL;
             _coursesDAL = coursesDAL;
+            _errorLogger = errorLogger;
         }
         public IActionResult Index()
         {
@@ -28,6 +31,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -56,6 +60,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -86,6 +91,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View(user);
             }
         }
@@ -101,6 +107,7 @@ namespace ClaysysLearningPortal.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -116,6 +123,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -136,6 +144,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View(user);
             }
         }
@@ -151,6 +160,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -174,6 +184,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -190,6 +201,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -216,6 +228,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -231,6 +244,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -250,6 +264,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -278,6 +293,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             } 
         }
@@ -300,6 +316,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -331,6 +348,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
@@ -357,6 +375,7 @@ namespace ClaysysLearningPortal.Controllers
             {
 
                 TempData["ErrorMessage"] = ex.Message;
+                _errorLogger.WriteError(ex.Message);
                 return View();
             }
         }
