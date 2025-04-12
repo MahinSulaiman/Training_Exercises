@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\Error\\06-04-25.txt"
     },
     {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\07-04-25.txt",
+      "PackagePath": "staticwebassets\\Error\\07-04-25.txt"
+    },
+    {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\09-04-25.txt",
+      "PackagePath": "staticwebassets\\Error\\09-04-25.txt"
+    },
+    {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\10-04-25.txt",
+      "PackagePath": "staticwebassets\\Error\\10-04-25.txt"
+    },
+    {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\11-04-25.txt",
+      "PackagePath": "staticwebassets\\Error\\11-04-25.txt"
+    },
+    {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\Error\\12-04-25.txt",
+      "PackagePath": "staticwebassets\\Error\\12-04-25.txt"
+    },
+    {
       "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
       "PackagePath": "staticwebassets\\css\\admin.css"
     },
@@ -33,8 +53,16 @@
       "PackagePath": "staticwebassets\\js\\dateValidation.js"
     },
     {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
+      "PackagePath": "staticwebassets\\js\\fileValidation.js"
+    },
+    {
       "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\loadCourseByCategory.js",
       "PackagePath": "staticwebassets\\js\\loadCourseByCategory.js"
+    },
+    {
+      "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
+      "PackagePath": "staticwebassets\\js\\preventBack.js"
     },
     {
       "Id": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\site.js",

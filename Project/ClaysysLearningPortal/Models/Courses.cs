@@ -11,9 +11,6 @@ namespace ClaysysLearningPortal.Models
         [Required]
         [RegularExpression(@"^[a-zA-Z\s]*$", ErrorMessage = "Name can only contain letters and spaces.")]
         public string Title { get; set; }
-        [Required]
-        [DisplayName("Upload image")]
-        //public IFormFile CourseImage { get; set; }
         public byte[] CourseImage { get; set; }
         [Required]
         public string Description { get; set; }

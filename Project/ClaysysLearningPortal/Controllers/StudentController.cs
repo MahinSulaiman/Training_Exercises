@@ -10,6 +10,7 @@ using System.Security.Claims;
 namespace ClaysysLearningPortal.Controllers
 {
     [Authorize]
+    [ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
     public class StudentController : Controller
     {
         private readonly CoursesDAL _coursesDAL;
@@ -28,6 +29,8 @@ namespace ClaysysLearningPortal.Controllers
             {
                 List<Categories> categories = _coursesDAL.GetCategories();
                 ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
+                ViewData["Controller"] = "Student";
+                ViewData["Action"] = "Index";
                 return View();
             }
             catch (Exception ex)
@@ -204,6 +207,41 @@ namespace ClaysysLearningPortal.Controllers
                 TempData["ErrorMessage"] = ex.Message;
                 _errorLogger.WriteError(ex.Message);
                 return View(); 
+            }
+        }
+
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ChangePassword(ChangePassword changePassword)
+        {
+            try
+            {
+                var userNameClaim = User.FindFirst(ClaimTypes.Name)?.Value;
+                changePassword.UserName = userNameClaim.ToString();
+                UserLogin loginUser = _userDAL.Login(changePassword.UserName, changePassword.OldPassword);
+                if (loginUser.Role == null)
+                {
+                    TempData["ErrorMessage"] = "Invalid password";
+                    return View(changePassword);
+                }
+
+                bool result = _userDAL.UpdatePassword(changePassword);
+                if (!result)
+                {
+                    TempData["ErrorMessage"] = "not updated";
+                    return View(changePassword);
+                }
+                return RedirectToAction("Logout");
+            }
+
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                return View(changePassword);
             }
         }
 

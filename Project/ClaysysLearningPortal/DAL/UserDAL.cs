@@ -227,8 +227,9 @@ namespace ClaysysLearningPortal.DAL
                     connection.Open();
                     SqlDataReader dr = command.ExecuteReader();
 
-                    while (dr.Read())
-                    {
+                    //while (dr.Read())
+                    //{
+                    dr.Read();
                         user.UserId = Convert.ToInt32(dr["userId"]);
                         user.FirstName = dr["firstName"].ToString();
                         user.LastName = dr["lastName"].ToString();
@@ -237,7 +238,7 @@ namespace ClaysysLearningPortal.DAL
                         user.DateOfBirth = Convert.ToDateTime(dr["dateOfBirth"]);
                         user.UserName = dr["userName"].ToString();
                         user.Role = dr["role"].ToString();
-                    }
+                    //}
                 }
                 finally
                 {
@@ -245,6 +246,36 @@ namespace ClaysysLearningPortal.DAL
                 }
             }
             return user;
+        }
+
+        /// <summary>
+        /// change password
+        /// </summary>
+        /// <param name="changePassword"></param>
+        /// <returns></returns>
+        public bool UpdatePassword(ChangePassword changePassword)
+        {
+            int result=0;
+            var passswordHasher = new PasswordHasher<Users>();
+            var hashedPassword = passswordHasher.HashPassword(null, changePassword.NewPassword);
+            using (var connection = CreateConnection())
+            {
+                try
+                {
+                    SqlCommand command = new SqlCommand("usp_UpdatePassword", (SqlConnection)connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@UserName", changePassword.UserName);
+                    command.Parameters.AddWithValue("@Password", hashedPassword);
+
+                    connection.Open();
+                    result = command.ExecuteNonQuery();
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+            return result > 0;
         }
 
     }

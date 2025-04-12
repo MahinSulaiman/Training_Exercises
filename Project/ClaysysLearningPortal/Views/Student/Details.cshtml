@@ -9,7 +9,7 @@
     ViewData["Title"] = Model.Title; 
 }
 
-<body class="bg-light">
+<body class="">
     @if (TempData["InfoMessage"] != null)
     {
         <div class="alert alert-info alert-dismissible fade show" role="alert">
@@ -60,11 +60,22 @@
         {
             <div class="text-center">
                 <a href="@Url.Action("EnrollCourse", "Student", new { courseId = Model.CourseId })" class="btn btn-primary btn-lg">Enroll</a>
+                <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
             </div>
         }
         else if (Model.EnrollStatus == "pending")
         {
             <p class="text-warning text-center"><strong>You can access the course after admin approval</strong></p>
+            <div class="">
+                <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+            </div>
+        }
+        else if (Model.EnrollStatus == "rejected")
+        {
+            <p class="text-danger text-center"><strong>Admin rejected yor request</strong></p>
+            <div class="">
+                <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+            </div>
         }
         else
         {
@@ -78,8 +89,14 @@
             {
                 <p class="text-center text-muted">No course file available</p>
             }
+            <div class="">
+                <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+            </div>
         }
     </div>
-
+   
+    @section Styles {
+        <link href="~/css/admin.css" rel="stylesheet" />
+    }
    
 </body>

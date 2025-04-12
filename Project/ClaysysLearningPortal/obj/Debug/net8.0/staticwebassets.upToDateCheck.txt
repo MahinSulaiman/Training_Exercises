@@ -4,6 +4,10 @@ wwwroot\css\site.css
 wwwroot\Error\02-04-25.txt
 wwwroot\Error\06-04-25.txt
 wwwroot\Error\07-04-25.txt
+wwwroot\Error\09-04-25.txt
+wwwroot\Error\10-04-25.txt
+wwwroot\Error\11-04-25.txt
+wwwroot\Error\12-04-25.txt
 wwwroot\favicon.ico
 wwwroot\js\dateValidation.js
 wwwroot\js\fileValidation.js

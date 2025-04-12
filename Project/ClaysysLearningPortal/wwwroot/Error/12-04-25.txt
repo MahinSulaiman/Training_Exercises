@@ -1,0 +1,25 @@
+
+Log Entry : 
+04/12/2025 10:30:38
+Error in: /Admin/CourseDetails. Error Message: There is already an open DataReader associated with this Connection which must be closed first.
+__________________________
+
+Log Entry : 
+04/12/2025 10:49:38
+Error in: /Admin/CourseDetails. Error Message: There is already an open DataReader associated with this Connection which must be closed first.
+__________________________
+
+Log Entry : 
+04/12/2025 11:05:05
+Error in: /User/Login. Error Message: Invalid username or password
+__________________________
+
+Log Entry : 
+04/12/2025 11:35:58
+Error in: /User/Login. Error Message: Invalid username or password
+__________________________
+
+Log Entry : 
+04/12/2025 12:11:19
+Error in: /User/Login. Error Message: Invalid username or password
+__________________________

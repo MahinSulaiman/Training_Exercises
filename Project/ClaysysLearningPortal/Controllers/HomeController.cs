@@ -24,6 +24,8 @@ public class HomeController : Controller
         {
             List<Categories> categories = _coursesDAL.GetCategories();
             ViewData["Categories"] = new SelectList(categories, "CategoryId", "Category");
+            ViewData["Controller"] = "Home";
+            ViewData["Action"] = "Index";
             return View();
         }
         catch (Exception ex)

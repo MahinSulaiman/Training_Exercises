@@ -41,7 +41,7 @@ else if (TempData["ErrorMessage"] != null)
                         <h5>Edit Course</h5>
                     </div>
                     <div class="card-body">
-                        <form asp-action="EditCourse" enctype="multipart/form-data">
+                        <form asp-action="EditCourse" enctype="multipart/form-data" method="post">
                             <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
                             
                             <input type="hidden" id="CourseId" name="CourseId" value="@Model.CourseId" />
@@ -56,7 +56,7 @@ else if (TempData["ErrorMessage"] != null)
                             <!-- Existing Course Image (if available) -->
                             @if (!string.IsNullOrEmpty(ViewBag.Base64Image))
                             {
-                                <div class="form-group">
+                                <div class="">
                                     <label class="control-label">Current Course Image</label>
                                     <div>
                                         <img src="data:image/jpeg;base64,@ViewBag.Base64Image" alt="Course Image" style="width: 150px; height: auto; border-radius: 8px;" />
@@ -64,7 +64,7 @@ else if (TempData["ErrorMessage"] != null)
                                 </div>
                             }
 
-
+                            <input type="hidden" id="CourseImage" name="CourseImage" value="@Model.ExistingImage" />
 
                             <!-- Upload Course Image -->
                             <div class="form-group mt-2">
@@ -81,8 +81,8 @@ else if (TempData["ErrorMessage"] != null)
 
                             <!-- Course File -->
                             <div class="form-group mt-2">
-                                <label asp-for="CourseFile" class="control-label">Course File</label>
-                                <input asp-for="CourseFile" class="form-control" placeholder="Upload course file" />
+                                <label asp-for="CourseFile" class="control-label">Course Url</label>
+                                <input asp-for="CourseFile" class="form-control" placeholder="Course url" />
                                 <span asp-validation-for="CourseFile" class="text-danger"></span>
                             </div>
 

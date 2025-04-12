@@ -9,6 +9,7 @@ using System.Security.Claims;
 namespace ClaysysLearningPortal.Controllers
 {
     [Authorize(Roles = "admin")]
+    [ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
     public class AdminController : Controller
     {
         private readonly ErrorLogger _errorLogger;
@@ -336,6 +337,7 @@ namespace ClaysysLearningPortal.Controllers
 
                     string base64Image = Convert.ToBase64String(course.CourseImage);
                     ViewBag.Base64Image = base64Image;
+                    //course.ExistingImage = base64Image;
 
                     return View(course);
                 }
@@ -358,12 +360,22 @@ namespace ClaysysLearningPortal.Controllers
         {
             try
             {
-                using (var memorystream = new MemoryStream())
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                int userId = int.Parse(userIdClaim);
+                if (courseImage!=null)
                 {
-                    courseImage.CopyTo(memorystream);
-                    course.CourseImage = memorystream.ToArray();
+                    using (var memorystream = new MemoryStream())
+                    {
+                        courseImage.CopyTo(memorystream);
+                        course.CourseImage = memorystream.ToArray();
+                    } 
                 }
-                bool result = _coursesDAL.EditCourse(course);
+                else
+                {
+                    var existingCourse = _coursesDAL.GetCourseDetails(userId, course.CourseId);
+                    course.CourseImage = existingCourse?.CourseImage;
+                }
+                    bool result = _coursesDAL.EditCourse(course);
                 if (!result)
                 {
                     TempData["errorMessage"] = "Error while updating";
@@ -377,6 +389,41 @@ namespace ClaysysLearningPortal.Controllers
                 TempData["ErrorMessage"] = ex.Message;
                 _errorLogger.WriteError(ex.Message);
                 return View();
+            }
+        }
+
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ChangePassword(ChangePassword changePassword)
+        {
+            try
+            {
+                var userNameClaim = User.FindFirst(ClaimTypes.Name)?.Value;
+                changePassword.UserName = userNameClaim.ToString();
+                UserLogin loginUser = _userDAL.Login(changePassword.UserName, changePassword.OldPassword);
+                if (loginUser.Role == null)
+                {
+                    TempData["ErrorMessage"] = "Invalid password";
+                    return View(changePassword);
+                }
+
+                bool result = _userDAL.UpdatePassword(changePassword);
+                if (!result)
+                {
+                    TempData["ErrorMessage"] = "not updated";
+                    return View(changePassword);
+                }
+                return RedirectToAction("Logout","User");
+            }
+
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                return View(changePassword);
             }
         }
     }

@@ -198,14 +198,15 @@ namespace ClaysysLearningPortal.DAL
                     connection.Open();
                     SqlDataReader dr = command.ExecuteReader();
 
-                    while (dr.Read())
-                    {
+                    //while (dr.Read())
+                    //{
+                    dr.Read();
                         course.CourseId = dr.GetGuid("courseId");
                         course.Title = dr["title"].ToString();
                         course.CourseImage = dr["courseImage"] as byte[];
                         course.Description = dr["description"].ToString();
                         course.CourseFile = dr["courseFile"].ToString();
-                    }
+                    //}
                     dr.Close();
 
                     var result = cmd.ExecuteScalar();

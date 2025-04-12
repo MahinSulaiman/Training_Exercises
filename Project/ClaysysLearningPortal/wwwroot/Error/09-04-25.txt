@@ -1,0 +1,15 @@
+
+Log Entry : 
+04/09/2025 17:50:57
+Error in: /User/Login. Error Message: Invalid username or password
+__________________________
+
+Log Entry : 
+04/09/2025 18:41:39
+Error in: /Admin/EditCourse. Error Message: Procedure or function 'usp_UpdateCourse' expects parameter '@CourseImage', which was not supplied.
+__________________________
+
+Log Entry : 
+04/09/2025 18:46:06
+Error in: /Admin/EditCourse. Error Message: Procedure or function 'usp_UpdateCourse' expects parameter '@CourseImage', which was not supplied.
+__________________________

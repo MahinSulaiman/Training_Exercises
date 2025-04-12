@@ -130,9 +130,11 @@
     </section>
 </div>
 
-<!-- Footer Section (optional) -->
+
 @section Scripts {
     <script>
-        // Add any specific page-related scripts here if necessary
+        function preventBack(){window.history.forward();}
+        setTimeout(preventBack(),0);
+        window.onunload=function(){null};
     </script>
 }

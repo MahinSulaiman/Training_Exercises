@@ -72,6 +72,66 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wv5yzbnocw"},{"Name":"integrity","Value":"sha256-tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/06-04-25.txt"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"133"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022tC4VeX656OL7D7DeEx3GbqxOiijpQrwVPgQGTwmNM2w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 13:42:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/07-04-25.g3enw3pkc1.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\07-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g3enw3pkc1"},{"Name":"integrity","Value":"sha256-HEPqIKD3p\u002B946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/07-04-25.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"133"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022HEPqIKD3p\u002B946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 16:46:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/07-04-25.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\07-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HEPqIKD3p\u002B946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"133"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022HEPqIKD3p\u002B946Y35HOpN0vgRSnZ01vaLnWY2rIoLDAs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 16:46:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/09-04-25.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\09-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nOe5zGI\u002BWw\u002BX\u002BIXCh1bG2TyV/WH9ejwjGFC78r3Vw0k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"551"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022nOe5zGI\u002BWw\u002BX\u002BIXCh1bG2TyV/WH9ejwjGFC78r3Vw0k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 13:16:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/09-04-25.wtn7ozi0i9.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\09-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wtn7ozi0i9"},{"Name":"integrity","Value":"sha256-nOe5zGI\u002BWw\u002BX\u002BIXCh1bG2TyV/WH9ejwjGFC78r3Vw0k="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/09-04-25.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"551"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022nOe5zGI\u002BWw\u002BX\u002BIXCh1bG2TyV/WH9ejwjGFC78r3Vw0k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 13:16:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/10-04-25.h6p6o7r1kr.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\10-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h6p6o7r1kr"},{"Name":"integrity","Value":"sha256-\u002BUibkYP8EIgxb5ke1qdISOryokGERBrVNeJcHXV8aZg="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/10-04-25.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"699"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022\u002BUibkYP8EIgxb5ke1qdISOryokGERBrVNeJcHXV8aZg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 11:10:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/10-04-25.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\10-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BUibkYP8EIgxb5ke1qdISOryokGERBrVNeJcHXV8aZg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"699"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022\u002BUibkYP8EIgxb5ke1qdISOryokGERBrVNeJcHXV8aZg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 11:10:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/11-04-25.ny14xoc8xa.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\11-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ny14xoc8xa"},{"Name":"integrity","Value":"sha256-ETww9kh0vc6kV6YFQbuaeljtLhV0PzPHMiyCEUScr/g="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/11-04-25.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"665"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022ETww9kh0vc6kV6YFQbuaeljtLhV0PzPHMiyCEUScr/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:51:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/11-04-25.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\11-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ETww9kh0vc6kV6YFQbuaeljtLhV0PzPHMiyCEUScr/g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"665"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022ETww9kh0vc6kV6YFQbuaeljtLhV0PzPHMiyCEUScr/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 14:51:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/12-04-25.1ocbzelm2w.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\12-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ocbzelm2w"},{"Name":"integrity","Value":"sha256-4d/V5Sf4YCwiglBDVKvXXqMKzEzR71V1/gmsaXMcL2Q="},{"Name":"label","Value":"_content/ClaysysLearningPortal/Error/12-04-25.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"817"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00224d/V5Sf4YCwiglBDVKvXXqMKzEzR71V1/gmsaXMcL2Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 06:41:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/Error/12-04-25.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Error\12-04-25.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4d/V5Sf4YCwiglBDVKvXXqMKzEzR71V1/gmsaXMcL2Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"817"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00224d/V5Sf4YCwiglBDVKvXXqMKzEzR71V1/gmsaXMcL2Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 06:41:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -96,6 +156,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b\u002BQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"551"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022GgijuyBDtifDQLHGSUOswITK9MPeOeKxoIbclrk6b\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 01 Apr 2025 14:52:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/fileValidation.58ti8bwo18.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fileValidation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"58ti8bwo18"},{"Name":"integrity","Value":"sha256-dXg4aL\u002Bv6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM="},{"Name":"label","Value":"_content/ClaysysLearningPortal/js/fileValidation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"390"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dXg4aL\u002Bv6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 12:29:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/fileValidation.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fileValidation.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dXg4aL\u002Bv6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"390"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dXg4aL\u002Bv6tt2tkpWc92X7KEcKHRQoK/LinslFLYktJM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 12:29:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/loadCourseByCategory.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\loadCourseByCategory.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -107,6 +179,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xg33s1bfz2"},{"Name":"integrity","Value":"sha256-UeRAfPH5Sr8pnKdFf3R\u002BpbkjIP\u002BCAi1ciSONn9BraFY="},{"Name":"label","Value":"_content/ClaysysLearningPortal/js/loadCourseByCategory.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1925"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UeRAfPH5Sr8pnKdFf3R\u002BpbkjIP\u002BCAi1ciSONn9BraFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 05:39:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/preventBack.8kj5jyyga2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\preventBack.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8kj5jyyga2"},{"Name":"integrity","Value":"sha256-SM1q3PruzRIOAEVH\u002BueLIeQ4KuDUNeEePr0okgGklvE="},{"Name":"label","Value":"_content/ClaysysLearningPortal/js/preventBack.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SM1q3PruzRIOAEVH\u002BueLIeQ4KuDUNeEePr0okgGklvE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 06:44:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/preventBack.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\preventBack.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SM1q3PruzRIOAEVH\u002BueLIeQ4KuDUNeEePr0okgGklvE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SM1q3PruzRIOAEVH\u002BueLIeQ4KuDUNeEePr0okgGklvE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 06:44:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ClaysysLearningPortal/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

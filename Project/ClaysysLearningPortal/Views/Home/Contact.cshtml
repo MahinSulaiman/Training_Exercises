@@ -2,35 +2,38 @@
     ViewData["Title"] = "Contact Us";
 }
 
-<div class="container">
-    <h2 class="my-4">@ViewData["Title"]</h2>
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-primary">@ViewData["Title"]</h2>
+        <p class="text-muted">We’d love to hear from you. Please fill out the form below and we’ll get back to you soon.</p>
+    </div>
 
-    <form method="post" action="@Url.Action("SubmitContact", "Home")">
-        <div class="row">
-            <!-- Name -->
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="Name">Name</label>
-                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter your name" required />
+    <div class="card shadow-lg border-0 rounded-4 p-4">
+        <form method="post" action="@Url.Action("SubmitContact", "Home")">
+            <div class="row g-4">
+                <!-- Name -->
+                <div class="col-md-6">
+                    <label for="Name" class="form-label fw-semibold">Name</label>
+                    <input type="text" class="form-control form-control-lg" id="Name" name="Name" placeholder="John Doe" required />
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                    <label for="Email" class="form-label fw-semibold">Email</label>
+                    <input type="email" class="form-control form-control-lg" id="Email" name="Email" placeholder="john@example.com" required />
                 </div>
             </div>
 
-            <!-- Email -->
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="Email">Email</label>
-                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" required />
-                </div>
+            <div class="mt-4">
+                <label for="Message" class="form-label fw-semibold">Message</label>
+                <textarea class="form-control form-control-lg" id="Message" name="Message" rows="5" placeholder="How can we help you?" required></textarea>
             </div>
-        </div>
 
-        <div class="form-group">
-            <label for="Message">Message</label>
-            <textarea class="form-control" id="Message" name="Message" rows="4" placeholder="Write your message" required></textarea>
-        </div>
-
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        </div>
-    </form>
+            <div class="text-end mt-4">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                    <i class="bi bi-envelope-fill me-2"></i>Send Message
+                </button>
+            </div>
+        </form>
+    </div>
 </div>

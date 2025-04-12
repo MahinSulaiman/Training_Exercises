@@ -3,120 +3,20 @@
   "WorkspaceRootPath": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\js\\preventback.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\js\\preventback.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\js\\filevalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\js\\filevalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\enrolledcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\enrolledcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\enrolledcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\enrolledcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\getenrollrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\getenrollrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\js\\loadcoursebycategory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\js\\loadcoursebycategory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\dal\\coursesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:dal\\coursesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,55 +27,76 @@
       "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\error\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:error\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\wwwroot\\js\\datevalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:wwwroot\\js\\datevalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\deletecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\deletecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\admin\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\dal\\coursesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:dal\\coursesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\enroldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\enroldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\claysys_training\\ADO.Net\\UserRegistrationForm\\DAL\\Users_DAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|e:\\claysys_training\\project\\claysyslearningportal\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8785BED5-F8CB-4FE8-A846-936964C4D10B}|ClaysysLearningPortal.csproj|solutionrelative:models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -185,200 +106,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "preventBack.js",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\preventBack.js",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\preventBack.js",
-              "RelativeToolTip": "wwwroot\\js\\preventBack.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-07T17:16:56.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\EditUser.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\EditUser.cshtml",
-              "RelativeToolTip": "Views\\Student\\EditUser.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCoAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "EditCourse.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditCourse.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditCourse.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditCourse.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwGEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T10:33:03.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "Views\\User\\Login.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwEQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T08:07:14.928Z",
+              "WhenOpened": "2025-03-24T17:13:29.85Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_LayoutStudent.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutStudent.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutStudent.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutStudent.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutStudent.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T09:07:50.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateCourse.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\CreateCourse.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\CreateCourse.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\CreateCourse.cshtml",
-              "RelativeToolTip": "Views\\Admin\\CreateCourse.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T05:37:44.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T05:32:08.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-06T05:01:36.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "home.css",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "wwwroot\\css\\home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-06T05:04:57.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T07:58:17.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Details.cshtml",
-              "RelativeToolTip": "Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T16:16:45.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "admin.css",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\admin.css",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\css\\admin.css",
-              "RelativeToolTip": "wwwroot\\css\\admin.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-06T11:06:21.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDetails.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\UserDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\UserDetails.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\UserDetails.cshtml",
-              "RelativeToolTip": "Views\\Student\\UserDetails.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T10:04:52.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "fileValidation.js",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\fileValidation.js",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\fileValidation.js",
-              "RelativeToolTip": "wwwroot\\js\\fileValidation.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-07T12:29:11.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "EnrolledCourses.cshtml",
               "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\EnrolledCourses.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\EnrolledCourses.cshtml",
               "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\EnrolledCourses.cshtml",
               "RelativeToolTip": "Views\\Student\\EnrolledCourses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T06:10:52.624Z"
+              "WhenOpened": "2025-04-12T06:53:10.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAswE4AAAACAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T15:28:49.296Z"
+              "WhenOpened": "2025-04-12T06:18:08.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T11:10:15.043Z"
+              "WhenOpened": "2025-04-12T06:09:04.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -388,332 +169,251 @@
               "RelativeDocumentMoniker": "Views\\Admin\\CourseDetails.cshtml",
               "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\CourseDetails.cshtml",
               "RelativeToolTip": "Views\\Admin\\CourseDetails.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T16:22:20.207Z"
+              "WhenOpened": "2025-04-12T05:40:16.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Users.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Models\\Users.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Users.cs",
-              "RelativeToolTip": "Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T11:36:27.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetEnrollRequest.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\GetEnrollRequest.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\GetEnrollRequest.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\GetEnrollRequest.cshtml",
-              "RelativeToolTip": "Views\\Admin\\GetEnrollRequest.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T08:35:46.619Z"
+              "WhenOpened": "2025-04-12T05:39:09.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EditCourse.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditCourse.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\EditCourse.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditCourse.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditCourse.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T17:13:29.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditUser.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T04:47:42.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Create.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T12:12:47.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Users.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:54:09.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "Views\\User\\Register.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAHwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T16:24:27.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "loadCourseByCategory.js",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\loadCourseByCategory.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\loadCourseByCategory.js",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\loadCourseByCategory.js",
-              "RelativeToolTip": "wwwroot\\js\\loadCourseByCategory.js",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-22T04:43:53.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T08:22:49.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CoursesDAL.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\CoursesDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\CoursesDAL.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\CoursesDAL.cs",
-              "RelativeToolTip": "DAL\\CoursesDAL.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAowJgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:56:31.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T04:22:20.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAIwM0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T11:09:22.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:05:12.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAFUBAAAAAAAAAAAAwHkBAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T11:52:03.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\UserLogin.cs",
-              "RelativeDocumentMoniker": "Models\\UserLogin.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\UserLogin.cs",
-              "RelativeToolTip": "Models\\UserLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:36:48.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\UserDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\UserDAL.cs",
-              "RelativeToolTip": "DAL\\UserDAL.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAswJUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:05:00.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Courses.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Courses.cs",
-              "RelativeDocumentMoniker": "Models\\Courses.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Courses.cs",
-              "RelativeToolTip": "Models\\Courses.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T11:45:41.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T11:27:39.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ErrorHandler.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Error\\ErrorHandler.cs",
-              "RelativeDocumentMoniker": "Error\\ErrorHandler.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Error\\ErrorHandler.cs",
-              "RelativeToolTip": "Error\\ErrorHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T15:59:43.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "dateValidation.js",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\dateValidation.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\dateValidation.js",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\wwwroot\\js\\dateValidation.js",
-              "RelativeToolTip": "wwwroot\\js\\dateValidation.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-01T14:49:15.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "DeleteCourse.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\DeleteCourse.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\DeleteCourse.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\DeleteCourse.cshtml",
-              "RelativeToolTip": "Views\\Admin\\DeleteCourse.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAIBJwE0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T04:56:28.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 9,
               "Title": "DeleteUser.cshtml",
               "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\DeleteUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\DeleteUser.cshtml",
               "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\DeleteUser.cshtml",
               "RelativeToolTip": "Views\\Admin\\DeleteUser.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T04:59:17.194Z"
+              "WhenOpened": "2025-04-12T05:30:48.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 10,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T05:29:02.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CoursesDAL.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\CoursesDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\CoursesDAL.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\CoursesDAL.cs",
+              "RelativeToolTip": "DAL\\CoursesDAL.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAANEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T04:56:24.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T15:17:42.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T15:12:19.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ChangePassword.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T14:41:59.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\ChangePassword.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Student\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Student\\ChangePassword.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T14:40:21.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:35:09.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePassword.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\ChangePassword.cs",
+              "RelativeToolTip": "Models\\ChangePassword.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:21:10.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:57:11.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_LayoutStudent.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutStudent.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_LayoutStudent.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutStudent.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD4AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:55:28.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:59:46.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "DAL\\UserDAL.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAADwv+cAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:44:24.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateCourse.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\CreateCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateCourse.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Admin\\CreateCourse.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateCourse.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T11:17:18.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "Models\\Courses.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Courses.cs",
+              "RelativeToolTip": "Models\\Courses.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:42:38.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:41:07.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
               "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T04:27:20.615Z"
+              "WhenOpened": "2025-04-10T06:34:40.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EnrolDetails.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\EnrolDetails.cs",
-              "RelativeDocumentMoniker": "Models\\EnrolDetails.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\EnrolDetails.cs",
-              "RelativeToolTip": "Models\\EnrolDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:14:26.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABcAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T06:08:57.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Users_DAL.cs",
-              "DocumentMoniker": "E:\\claysys_training\\ADO.Net\\UserRegistrationForm\\DAL\\Users_DAL.cs",
-              "RelativeDocumentMoniker": "..\\..\\ADO.Net\\UserRegistrationForm\\DAL\\Users_DAL.cs",
-              "ToolTip": "E:\\claysys_training\\ADO.Net\\UserRegistrationForm\\DAL\\Users_DAL.cs",
-              "RelativeToolTip": "..\\..\\ADO.Net\\UserRegistrationForm\\DAL\\Users_DAL.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T17:49:44.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Categories.cs",
-              "RelativeDocumentMoniker": "Models\\Categories.cs",
-              "ToolTip": "E:\\claysys_training\\Project\\ClaysysLearningPortal\\Models\\Categories.cs",
-              "RelativeToolTip": "Models\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T04:58:04.762Z"
+              "WhenOpened": "2025-04-10T06:23:30.085Z",
+              "EditorCaption": ""
             }
           ]
         }
